@@ -7,7 +7,7 @@ const getLocaleByCode = (code: string) => {
 
 // Parse the Accept-Language header and return the first supported language
 const getLanguageFromAcceptHeader = (acceptLanguage?: string) => {
-  if (!acceptLanguage) return "en";
+  if (!acceptLanguage) return "fr-FR";
 
   const languages = acceptLanguage.split(",").map((l) => l.split(";")[0]);
   const supportedLanguages = Object.values(LOCALES).map((l) => l.code);
@@ -28,7 +28,7 @@ const getLanguageFromAcceptHeader = (acceptLanguage?: string) => {
       return similarLanguage;
     }
   }
-  return "en";
+  return "fr-FR";
 };
 
 const isLanguageSupported = (code: string) => {

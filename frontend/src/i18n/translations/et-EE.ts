@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Logi välja",
   // END navbar
   // /
-  "home.title": "<h>Isehostitav</h> failijagamisplatvorm.",
-  "home.description": "Kas tõesti soovid anda oma isiklikud failid kolmandate osapoolte nagu WeTransfer kätte?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Isehostitav",
   "home.bullet.a.description": "Hosti Pingvin Share oma seadmes.",
   "home.bullet.b.name": "Privaatsus",

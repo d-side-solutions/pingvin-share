@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Odjava",
   // END navbar
   // /
-  "home.title": "Platforma za deljenje datotek z <h>lastnim gostovanjem</h>.",
-  "home.description": "Ali res želite predati svoje osebne datoteke v roke tretjih oseb, kot je WeTransfer?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Lastno-Gostovanje",
   "home.bullet.a.description": "Gostuj Pingvin Share na svoji lastni napravi.",
   "home.bullet.b.name": "Zasebnost",

@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "登出",
   // END navbar
   // /
-  "home.title": "<h>自建</h> 文件共享平台！",
-  "home.description": "你真的放心把文件交到第三方文件平台手中吗？",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "完全自建",
   "home.bullet.a.description": "轻松使用私有服务器搭建文件共享平台",
   "home.bullet.b.name": "完全隐私",

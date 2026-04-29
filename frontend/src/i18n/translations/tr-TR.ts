@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Çıkış Yap",
   // END navbar
   // /
-  "home.title": "Kendi sunucunuzda <h>barındırabileceğiniz</h> bir dosya paylaşım platformu.",
-  "home.description": "Kişisel dosyalarınızı gerçekten WeTransfer gibi üçüncü taraf hizmetlere emanet etmek istiyor musunuz?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Kendi Sunucunda Barındır",
   "home.bullet.a.description": "Pingvin Share'i kendi sunucunuzda barındırın.",
   "home.bullet.b.name": "Gizlilik",

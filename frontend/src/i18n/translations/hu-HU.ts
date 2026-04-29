@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Kijelentkezés",
   // END navbar
   // /
-  "home.title": "<h>Saját üzemeltetésű</h> fájl megosztó platform.",
-  "home.description": "Valóban hozzáférhetővé akarja tenni fájljait a WeTransfer és más hasonló harmadik felek számára?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Saját üzemeltetés",
   "home.bullet.a.description": "A Pingvin Share megosztót saját gépéről futtathatja.",
   "home.bullet.b.name": "Adatvédelem",
