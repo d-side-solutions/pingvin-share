@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Wyloguj się",
   // END navbar
   // /
-  "home.title": "<h>Samodzielnie utrzymywana</h> platforma udostępniania plików.",
-  "home.description": "Czy na pewno chcesz przekazać swoje prywatne pliki w ręce osób trzecich, takich jak WeTransfer?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Samodzielnie Utrzymywana",
   "home.bullet.a.description": "Utrzymuj Pingvin Share na własnym serwerze.",
   "home.bullet.b.name": "Prywatność",

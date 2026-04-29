@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "تسجيل الخروج",
   // END navbar
   // /
-  "home.title": "منصة لمشاركة الملفات <h>باستضافة ذاتية</h>.",
-  "home.description": "أحقًا تريد تسليم ملفاتك الشخصية لطرف ثالث مثل WeTransfer؟",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "استضافة ذاتية",
   "home.bullet.a.description": "قم باستضافة Pingvin Share على جهازك.",
   "home.bullet.b.name": "الخصوصية",

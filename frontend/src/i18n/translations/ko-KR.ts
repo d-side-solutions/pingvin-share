@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "로그아웃",
   // END navbar
   // /
-  "home.title": "<h>직접 호스팅</h>하는 파일 공유 플랫폼.",
-  "home.description": "정말 WeTransfer와 같은 제3자에게 개인 파일을 맡기고 싶으세요?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "직접 호스팅",
   "home.bullet.a.description": "자신의 컴퓨터에서 Pingvin Share를 호스팅하세요.",
   "home.bullet.b.name": "개인 정보 보호",

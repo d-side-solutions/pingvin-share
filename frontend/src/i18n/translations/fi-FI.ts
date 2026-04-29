@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Kirjaudu ulos",
   // END navbar
   // /
-  "home.title": "<h>\"Itse isännöitty\"</h> tiedostojen jakamisen alusta.",
-  "home.description": "Haluatko oikeasti jakaa yksityisiä tiedostojasi kolmannen osapuolen yhtiöille niin kuin WeTransfer?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Itse-Isännöitty",
   "home.bullet.a.description": "Isännöi \"Pingvin Share\" omalla palvelimellasi.",
   "home.bullet.b.name": "Yksityisyys",

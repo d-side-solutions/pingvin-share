@@ -1,22 +1,10 @@
-import {
-  Button,
-  Container,
-  createStyles,
-  Group,
-  List,
-  Text,
-  ThemeIcon,
-  Title,
-} from "@mantine/core";
-import Link from "next/link";
+import { Container, createStyles, Group, Text, Title } from "@mantine/core";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import { TbCheck } from "react-icons/tb";
+import { useEffect } from "react";
 import { FormattedMessage } from "react-intl";
 import Logo from "../components/Logo";
 import Meta from "../components/Meta";
 import useUser from "../hooks/user.hook";
-import useConfig from "../hooks/config.hook";
 
 const useStyles = createStyles((theme) => ({
   inner: {
@@ -27,7 +15,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   content: {
-    maxWidth: 480,
+    maxWidth: 520,
     marginRight: `calc(${theme.spacing.md} * 3)`,
 
     [theme.fn.smallerThan("md")]: {
@@ -47,26 +35,10 @@ const useStyles = createStyles((theme) => ({
     },
   },
 
-  control: {
-    [theme.fn.smallerThan("xs")]: {
-      flex: 1,
-    },
-  },
-
   image: {
     [theme.fn.smallerThan("md")]: {
       display: "none",
     },
-  },
-
-  highlight: {
-    position: "relative",
-    backgroundColor:
-      theme.colorScheme === "dark"
-        ? theme.fn.rgba(theme.colors[theme.primaryColor][6], 0.55)
-        : theme.colors[theme.primaryColor][0],
-    borderRadius: theme.radius.sm,
-    padding: "4px 12px",
   },
 }));
 
@@ -74,29 +46,14 @@ export default function Home() {
   const { classes } = useStyles();
   const { refreshUser } = useUser();
   const router = useRouter();
-  const config = useConfig();
-  const [signupEnabled, setSignupEnabled] = useState(true);
 
-  // If user is already authenticated, redirect to the upload page
   useEffect(() => {
     refreshUser().then((user) => {
       if (user) {
         router.replace("/upload");
       }
     });
-
-    // If registration is disabled, get started button should redirect to the sign in page
-    try {
-      const allowRegistration = config.get("share.allowRegistration");
-      setSignupEnabled(allowRegistration !== false);
-    } catch (error) {
-      setSignupEnabled(true);
-    }
-  }, [config]);
-
-  const getButtonHref = () => {
-    return signupEnabled ? "/auth/signUp" : "/auth/signIn";
-  };
+  }, [refreshUser, router]);
 
   return (
     <>
@@ -105,77 +62,11 @@ export default function Home() {
         <div className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
-              <FormattedMessage
-                id="home.title"
-                values={{
-                  h: (chunks) => (
-                    <span className={classes.highlight}>{chunks}</span>
-                  ),
-                }}
-              />
+              <FormattedMessage id="home.title" />
             </Title>
-            <Text color="dimmed" mt="md">
+            <Text color="dimmed" mt="md" size="md">
               <FormattedMessage id="home.description" />
             </Text>
-
-            <List
-              mt={30}
-              spacing="sm"
-              size="sm"
-              icon={
-                <ThemeIcon size={20} radius="xl">
-                  <TbCheck size={12} />
-                </ThemeIcon>
-              }
-            >
-              <List.Item>
-                <div>
-                  <b>
-                    <FormattedMessage id="home.bullet.a.name" />
-                  </b>{" "}
-                  - <FormattedMessage id="home.bullet.a.description" />
-                </div>
-              </List.Item>
-              <List.Item>
-                <div>
-                  <b>
-                    <FormattedMessage id="home.bullet.b.name" />
-                  </b>{" "}
-                  - <FormattedMessage id="home.bullet.b.description" />
-                </div>
-              </List.Item>
-              <List.Item>
-                <div>
-                  <b>
-                    <FormattedMessage id="home.bullet.c.name" />
-                  </b>{" "}
-                  - <FormattedMessage id="home.bullet.c.description" />
-                </div>
-              </List.Item>
-            </List>
-
-            <Group mt={30}>
-              <Button
-                component={Link}
-                href={getButtonHref()}
-                radius="xl"
-                size="md"
-                className={classes.control}
-              >
-                <FormattedMessage id="home.button.start" />
-              </Button>
-              <Button
-                component={Link}
-                href="https://github.com/stonith404/pingvin-share"
-                target="_blank"
-                variant="default"
-                radius="xl"
-                size="md"
-                className={classes.control}
-              >
-                <FormattedMessage id="home.button.source" />
-              </Button>
-            </Group>
           </div>
           <Group className={classes.image} align="center">
             <Logo width={200} height={200} />

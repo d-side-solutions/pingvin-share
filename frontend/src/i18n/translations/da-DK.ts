@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Log ud",
   // END navbar
   // /
-  "home.title": "En <h>self-hosted</h> fildelingsplatform.",
-  "home.description": "Er du sikker på, at du vil overlade dine personlige filer til tredjeparter som WeTransfer?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Self-Hosted",
   "home.bullet.a.description": "Host Pingvin Share på din egen maskine.",
   "home.bullet.b.name": "Privatliv",

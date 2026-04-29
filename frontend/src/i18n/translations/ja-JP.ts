@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "ログアウト",
   // END navbar
   // /
-  "home.title": "<h>セルフホスト</h>のファイル共有プラットフォーム。",
-  "home.description": "WeTransferのようなサードパーティーサービスに自分のファイルを渡したいですか？",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "セルフホスト",
   "home.bullet.a.description": "Pingvin Shareをあなたのマシンでホストしましょう。",
   "home.bullet.b.name": "プライバシー",

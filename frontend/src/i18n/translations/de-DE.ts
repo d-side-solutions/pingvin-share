@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Abmelden",
   // END navbar
   // /
-  "home.title": "Eine <h>selbst gehostete</h> Dateifreigabe-Plattform.",
-  "home.description": "Möchtest du wirklich deine persönlichen Dateien an Drittanbieter wie WeTransfer weitergeben?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Selbst gehostet",
   "home.bullet.a.description": "Betreibe Pingvin Share auf deinem eigenen Server.",
   "home.bullet.b.name": "Privatsphäre",

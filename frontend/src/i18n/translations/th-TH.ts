@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "ออกจากระบบ",
   // END navbar
   // /
-  "home.title": "แพลตฟอร์มสำหรับแชร์ไฟล์ที่คุณสามารถโฮสต์ด้วยตนเอง.",
-  "home.description": "คุณอยากให้บริษัทภายนอกเช่น WeTransfer เข้าถึงไฟล์ส่วนตัวของคุณหรือเปล่า?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Self-Hosted",
   "home.bullet.a.description": "โฮสต์ Pingvin Share บนเครื่องของคุณเอง.",
   "home.bullet.b.name": "ความเป็นส่วนตัว",

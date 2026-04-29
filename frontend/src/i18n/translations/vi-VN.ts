@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Đăng xuất",
   // END navbar
   // /
-  "home.title": "Một nền tảng <h>seft-hosted</h> chi sẻ tệp tin.",
-  "home.description": "Do you really want to give your personal files in the hand of third parties like WeTransfer?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Self-Hosted",
   "home.bullet.a.description": "Host Pingvin Share on your own machine.",
   "home.bullet.b.name": "Quyền riêng tư",

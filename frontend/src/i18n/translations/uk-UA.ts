@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Вийти",
   // END navbar
   // /
-  "home.title": "Платформа для обміну файлами із <h>власного хостингу</h>.",
-  "home.description": "Ви дійсно ви хочете передати свої особисті файли в руки третіх осіб, таких як WeTransfer?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "На власному сервері",
   "home.bullet.a.description": "Pingvin Share працює на вашій машині.",
   "home.bullet.b.name": "Конфіденційність",

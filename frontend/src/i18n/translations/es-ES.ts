@@ -11,8 +11,8 @@ export default {
   "navbar.avatar.signout": "Cerrar sesión",
   // END navbar
   // /
-  "home.title": "Una plataforma <h>autoalojada</h> para compartir archivos.",
-  "home.description": "¿De verdad quieres dejar tus archivos personales en manos de terceros como WeTransfer?",
+  "home.title": "File transfer platform",
+  "home.description": "This platform is the file transfer service of d-side solutions Sàrl for authorized exchanges with our teams and partners.",
   "home.bullet.a.name": "Autoalojada",
   "home.bullet.a.description": "Aloja Pingvin Share en tu propio equipo.",
   "home.bullet.b.name": "Privacidad",
